@@ -13,16 +13,6 @@
   </repository>
 </distributionManagement>
 
-<repositories>
-    <repository>
-      <snapshots>
-        <enabled>false</enabled>
-      </snapshots>
-      <id>ponmurugan</id>
-      <name>ponmurugan</name>
-      <url>http://192.168.2.15:8081/nexus/content/sites/ponmurugan/</url>
-    </repository>
-  </repositories>
   <dependencies>
     <dependency>
       <groupId>junit</groupId>
@@ -30,12 +20,6 @@
       <version>3.8.1</version>
       <scope>test</scope>
     </dependency>
-    <dependency>
-    <groupId>ponmurugan</groupId>
-<artifactId>ponmurugan</artifactId>
-<version>1</version>
-<scope>compile</scope>
-  </dependency>  
   </dependencies>
   <build>
     <finalName>pro2</finalName>
