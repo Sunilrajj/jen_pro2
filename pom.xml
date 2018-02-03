@@ -8,8 +8,8 @@
   <name>pro2 Maven Webapp</name>
 <distributionManagement>
   <repository>
-     <id>ponmurugan</id>
-     <url>http://192.168.2.15:8081/nexus/content/sites/ponmurugan</url>
+     <id>3rd_party_p2_updatesite</id>
+     <url>http://localhost:8081/nexus/content/sites/3rd_party_p2_updatesite/</url>
   </repository>
 </distributionManagement>
 
